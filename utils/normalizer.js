@@ -1,4 +1,4 @@
-import { sources, dataMapping } from '../config/dataMapping.js';
+import { sources, dataMapping } from './dataMapping.js';
 
 const normalizeMLSData = (rawData) => {
   const sourceKeyField = sources.find((key) => !!rawData[key]);

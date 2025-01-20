@@ -1,6 +1,6 @@
 import normalizeMLSData from './normalizer.js';
 import postToCRM from './httpClient.js';
-import { sources } from '../config/dataMapping.js';
+import { sources } from './dataMapping.js';
 import mlsSchema from '../validation/validationSchema.js';
 
 const normalizeValidationSend = async (mockData) => {
